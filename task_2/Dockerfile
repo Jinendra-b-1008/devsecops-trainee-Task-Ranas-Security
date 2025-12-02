@@ -1,5 +1,5 @@
 FROM python:3.12-slim
-RUN adduser -D appuser
+RUN useradd -m appuser
 WORKDIR /app
 COPY user_name.sh /app/user_name.sh
 RUN chmod +x /app/user_name.sh
