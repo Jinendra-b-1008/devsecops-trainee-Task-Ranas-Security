@@ -4,9 +4,9 @@
 3. Git Workflow and Documentation.
 4. Creation of Dockerfile with Security point of view.
 
-** ### Task 1 : Log File Analysis **
+### Task 1 : Log File Analysis 
 
-** Objective **
+**Objective**
 ``` Create a Bash script that:
 	Accepts a log file as an argument
 	Counts the Total number of lines
@@ -35,7 +35,7 @@ f. Run the script by passing the log file as an argument:
     WARN lines : 3
     ERROR lines: 2
 
-** ### Task-2 : Environment Information Script, Dockerfile creation and execution **
+**Task-2 : Environment Information Script, Dockerfile creation and execution**
 - Solution Approach:
 A. Bash script (script.sh) was created with the following functions:
 	a. whoami → Prints the name of the current user
@@ -68,7 +68,7 @@ Solution Approach
     Gives execute permission to the script, switch non root user
     Runs the script when the container starts using CMD/ENTRYPOINT ```
 
-```### Creating Image and Running Container
+``` ###Creating Image and Running Container
     Create Image : docker build <image-name> .
     Run container : docker run --rm <image-name>
     Custom env :  docker run --rm -e  APP_ENV=production <image-name>
