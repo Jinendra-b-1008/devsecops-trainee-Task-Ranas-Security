@@ -7,10 +7,10 @@
 ### Task 1 : Log File Analysis 
 
 **Objective**
-``` Create a Bash script that:
+	Create a Bash script that:
 	Accepts a log file as an argument
 	Counts the Total number of lines
-	Number of lines containing INFO, WARN, ERROR ```
+	Number of lines containing INFO, WARN, ERROR 
 Solution Approach - 
 a. Created a Bash script named log_checker.sh.
     The script takes the log file name as an argument (e.g., example.log).
